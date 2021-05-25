@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ToDo_12</string>
+    <string name="donut_order_message">You ordered a donut.</string>
+    <string name="ice_cream_order_message">You ordered an ice cream sandwich.</string>
+    <string name="froyo_order_message">You ordered a FroYo.</string>
+    <string name="rb1">Same Day Messenger Service</string>
+    <string name="rb2">Next Day Ground Delivery</string>
+    <string name="rb3">Pick Up</string>
+    <string name="action_status">You selected Status</string>
+    <string name="name">Name</string>
+    <string-array name="spinnerDdown">
+        <item>Home</item>
+        <item>Work</item>
+        <item>Mobile</item>
+        <item>Other</item>
+    </string-array>
+</resources>

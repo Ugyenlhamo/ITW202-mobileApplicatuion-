@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editTextWeb"
+        android:layout_width="277dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="68dp"
+        android:ems="10"
+        android:hint="Enter URI here:"
+        android:inputType="textPersonName"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonWebsite"
+        android:layout_width="213dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="36dp"
+        android:text="Open website"
+        android:onClick="website"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextWeb" />
+
+    <EditText
+        android:id="@+id/editTextLoc"
+        android:layout_width="281dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="52dp"
+        android:ems="10"
+        android:hint="Enter location: "
+        android:inputType="textPersonName"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonWebsite" />
+
+    <Button
+        android:id="@+id/buttonLocation"
+        android:layout_width="235dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="28dp"
+        android:text="Open location"
+        android:onClick="location"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.562"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextLoc" />
+
+    <EditText
+        android:id="@+id/editTextshare"
+        android:layout_width="283dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="52dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Enter text here: "
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.523"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonLocation" />
+
+    <Button
+        android:id="@+id/buttonShare"
+        android:layout_width="224dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="32dp"
+        android:text="Share this text"
+        android:onClick="share"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextshare" />
+</androidx.constraintlayout.widget.ConstraintLayout>
